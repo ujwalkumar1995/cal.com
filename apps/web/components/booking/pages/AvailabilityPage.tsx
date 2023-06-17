@@ -217,7 +217,7 @@ const AvailabilityPage = ({ profile, eventType, ...restProps }: Props) => {
                         </div>
                       )}
                       {paymentAppData.price > 0 && (
-                        <p className="-ml-2 px-2 text-sm font-medium">
+                        <p className="!mb-3 -ml-2 px-2 text-sm font-medium">
                           <CreditCard className="ml-[2px] -mt-1 inline-block h-4 w-4 ltr:mr-[10px] rtl:ml-[10px]" />
                           {paymentAppData.paymentOption === "HOLD" ? (
                             <>
